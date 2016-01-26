@@ -1,0 +1,797 @@
+body{
+	font-family: 'Raleway', sans-serif;
+	}
+	
+	.navbar{
+		margin-bottom:0px !important;
+	}
+	
+	.top-search-box{
+		width:250px; 
+		padding:10px;
+	}
+	.site-logo{
+		height:53px;
+		width:auto; 
+		margin-top:-18px;
+	}
+	
+	.banner-image{
+		width:100%;
+		-webkit-filter: blur(5px);
+        filter: blur(5px);
+	}
+	
+	.welcome{
+		font-family: 'Raleway', sans-serif;
+		font-weight:300;
+		color:#fff; 
+		text-align:center;
+		font-size:60px;
+	}
+	
+	.header-text{
+	    margin-top:75px;
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		text-align:center;
+		font-size:50px;
+	}
+	
+	.color{
+		height:4px;
+		width:20%;
+		float:left;
+	}
+	
+	.bar1{
+		background-color:#EF6C00;
+	}
+	.bar2{
+		background-color:#FFEB3B;
+	}
+	.bar3{
+		background-color:#AEEA00;
+	}
+	.bar4{
+		background-color:#69F0AE;
+	}
+	.bar5{
+		background-color:#0091EA;
+	}
+	
+	#grad1 {
+    background: -webkit-linear-gradient(left, #3F51B5 , #B39DDB); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(right, #3F51B5, #B39DDB); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(right, #3F51B5, #B39DDB); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(to right, #3F51B5 , #B39DDB); /* Standard syntax (must be last) */
+}
+
+	.celebrity-review{
+		height:auto;
+		width:100%;
+		//background:rgba(68, 179, 255, 0.62);
+		background:rgba(52, 98, 130, 0.62);
+		padding:10px;
+		//margin:20px 5px 5px 5px;
+		margin:10px;
+		text-align:left;
+	
+		height: 153px; 
+		overflow: hidden;
+		text-overflow: ellipsis; 
+	}
+	
+	.celebrity-review-pic{
+		height:80px;
+		width:80px;
+		border:5px solid rgba(130, 184, 220, 0.62);
+		border-radius:100px;
+	}
+	.celebrity-reviewer-name{
+		font-size:16px;
+		color:#fff;
+		font-weight:bold;
+	}
+	.celebrity-review-book{
+		font-size:13px;
+		font-weight:bold;
+		color:#FAFB69;
+	}
+	.celebrity-review-books-author{
+		font-size:14px;
+		font-weight:bold;
+		font-style:italic;
+		color:#ffffff;
+	}
+	.celebrity-review-text{
+		font-size:13px;
+		color:#EAEAEA;
+		margin:10px 0px 10px;
+		line-height:18px;
+	}
+	
+	.space-for-books-row{
+		padding-top:30px;
+		padding-bottom:30px;
+	}
+	
+	.trending-books{
+	
+	}
+	.trending-books img{
+		width:100%;
+		height:230px;
+	}
+	
+	.more-trending-button{
+		padding:10px 50px 10px 50px;
+		background-color:#3D9CB9;
+		color:#fff;
+		border:none;
+	}
+
+/*footer */
+	
+	.upper-footer{
+		padding:20px;
+		background:#ECECDE;
+	}
+	.lower-footer{
+		padding:20px 0px 20px 0px;
+		background:#333333;
+		color:#ffffff;
+	}
+	
+	.footer-header{
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		font-size:30px;
+	}
+	.footer-text{
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		font-size:14px;
+	}
+	.social-photo{
+		height:40px;
+		width:40px;
+	}
+	.site-map{
+		padding:5px;
+	}
+	.site-map a {
+		color:#fff !important;
+		text-decoration: none;
+	}
+	
+/* footer end */
+
+
+/* Carousel */
+
+#quote-carousel {
+    padding: 0 10px 10px 10px;
+    margin-top: 20px;
+    /* Control buttons  */
+    /* Previous button  */
+    /* Next button  */
+    /* Changes the position of the indicators */
+    /* Changes the color of the indicators */
+}
+#quote-carousel .carousel-control {
+    background: none;
+    color: #CACACA;
+    font-size: 2.3em;
+    text-shadow: none;
+    margin-top: 30px;
+}
+#quote-carousel .carousel-control.left {
+    left: -60px;
+}
+#quote-carousel .carousel-control.right {
+    right: -60px;
+}
+#quote-carousel .carousel-indicators {
+    right: 50%;
+    top: auto;
+    bottom: 0px;
+    margin-right: -19px;
+}
+#quote-carousel .carousel-indicators li {
+    width: 50px;
+    height: 50px;
+    margin: 5px;
+    cursor: pointer;
+    border: 4px solid #CCC;
+    border-radius: 50px;
+    opacity: 0.4;
+    overflow: hidden;
+    transition: all 0.4s;
+}
+#quote-carousel .carousel-indicators .active {
+    background: #333333;
+    width: 128px;
+    height: 128px;
+    border-radius: 100px;
+    border-color: #00B0FF;
+    opacity: 1;
+    overflow: hidden;
+}
+.carousel-inner {
+    min-height: 280px;
+}
+.item blockquote {
+    border-left: none;
+    margin: 0;
+}
+/*.item blockquote p:before {
+    content: "\f10d";
+    font-family: 'Fontawesome';
+    float: left;
+    margin-right: 10px;
+}*/
+
+.weeks-best-review{
+	font-size:14px;
+}
+
+.carousel-control .glyphicon-chevron-left, .carousel-control .glyphicon-chevron-right, .carousel-control .icon-next, .carousel-control .icon-prev {
+    width: 30px;
+    height: 30px;
+    margin-top: -15px;
+    font-size: 50px;
+}
+
+/* carousel end */
+
+/* write review*/
+.books-cover-photo{
+		width:100%;
+		//border:5px solid #C2C4C5;
+	}
+	.books-cover-detail{
+		position:absolute;
+		width:100%; 
+		height:auto;
+		background-color:rgba(41, 120, 173, 0.85);
+		color:white;
+		top:70%;
+		left:0;
+		padding:0px 10px 10px 10px;
+		font-size:16px;z-index:5;
+		min-height:90px;
+	}
+	.books-cover-author-photo{
+		width:80px;
+		height:80px;
+		border-radius:100px; 
+		margin-top:-20px; 
+		border:5px solid rgba(130, 184, 220, 0.62);
+	}
+	.author-photo-box{
+	    width:90px;
+		float:left;
+	}
+	.author-detial-box{
+	    padding-top:10px;
+		width:150px;
+		float:left;
+	}
+	.author-name{
+		font-size:20px;
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		line-height: 21px;
+	}
+	.sub-details{
+		font-size: 13px;
+	}
+	
+	.book-details .name{
+		font-size:40px;
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		line-height: 30px;
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+	
+	.review-item{
+		height: auto;
+		/* width: 450px; */
+		background: rgba(233, 234, 221, 0.99);
+		padding: 5px 10px 20px 10px;
+		margin: 20px 5px 5px 5px;
+		text-align: left;
+	}
+	.reviewer-pic {
+		height: 60px;
+		width: 60px;
+		border-radius: 100px;
+		}
+		
+	.reviewer-name{
+		font-size:16px;
+		color:#000;
+		font-weight:bold;
+	}
+	.review-text{
+		font-size:13px;
+		color:#000;
+		margin:10px 0px 10px;
+		line-height:15px;
+	}
+	.write-review-box{
+		border: 5px solid #E4E4DA;
+        padding: 40px 20px 20px 20px;
+		background: #C3C3C3;
+	}
+	.write-review-header{
+		font-size:30px;
+		font-family: 'Raleway', sans-serif;
+		font-weight:300; 
+		line-height: 30px;
+		margin-bottom:20px;
+		margin-top:10px;
+	}
+/* write review end*/
+/*profile */
+	.reviewed-books{
+		width:100%;
+	}
+/* profile end*/
+
+
+/*blinking button*/
+.button-blink {
+ background:#3D9CB9;
+ color:#fff;
+ padding:10px 30px 10px 30px; 
+}
+
+@-webkit-keyframes glowing {
+  0% { background-color: #c0392b; -webkit-box-shadow: 0 0 3px #c0392b; }
+  50% { background-color: #f1c40f; -webkit-box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #c0392b; -webkit-box-shadow: 0 0 3px #c0392b; }
+}
+
+@-moz-keyframes glowing {
+  0% { background-color: #c0392b; -moz-box-shadow: 0 0 3px #c0392b; }
+  50% { background-color: #f1c40f; -moz-box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #c0392b; -moz-box-shadow: 0 0 3px #c0392b; }
+}
+
+@-o-keyframes glowing {
+  0% { background-color: #c0392b; box-shadow: 0 0 3px #c0392b; }
+  50% { background-color: #f1c40f; box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #c0392b; box-shadow: 0 0 3px #c0392b; }
+}
+
+@keyframes glowing {
+  0% { background-color: #c0392b; box-shadow: 0 0 3px #c0392b; }
+  50% { background-color: #f1c40f; box-shadow: 0 0 10px #f1c40f; }
+  100% { background-color: #c0392b; box-shadow: 0 0 3px #c0392b; }
+}
+
+.button-blink  {
+  -webkit-animation: glowing 1500ms infinite;
+  -moz-animation: glowing 1500ms infinite;
+  -o-animation: glowing 1500ms infinite;
+  animation: glowing 1500ms infinite;
+}
+
+
+
+.modal-footer {
+	text-align:center;
+}
+.modal-body{
+	text-align:center;
+}
+
+#top-marquee
+{
+	padding:12px; 
+	background:#256966; 
+	color:#fff;
+}
+
+.deadline-date{
+	color:#E42222; 
+	font-size: 24px;
+}
+.prize-modal-details{
+	padding:10px 50px 10px 50px;
+}
+
+.biography{
+	margin: 50px 100px 20px 50px;
+}
+
+.biography p{
+    line-height: 25px; 
+	font-size: 16px;
+}
+
+.biography p img {
+	height:60px;
+	width:auto; 
+	margin-top:-35px;
+}
+
+a{
+	text-decoration:none !important; 
+}
+
+.side-link-photo{
+	height:50px;
+	width:auto;
+	border-radius:50px;
+}
+.side-link{
+	font-size:20px;
+	padding:30px 5px 0px 0px;
+	margin: 0 0 0px;
+	font-weight:bold;
+}
+
+.yellow{
+	color:#B39213;;
+}
+
+.red{
+	color:#E44545;
+}
+.blue{
+	color:#357DA9;
+}
+.purple{
+	color:#8C456F;
+}
+.green{
+	color:#44B538;
+}
+
+.prize-winning-review-section{
+	margin:80px 10px 50px 10px;
+	text-align:center;
+}
+.prize-winning-review-section-header{
+	font-size:25px;
+	margin-bottom:20px;
+}
+
+.video-tutorial-section{
+	margin:50px 10px 50px 10px;
+	text-align:center;
+}
+.video-tutorial-section p{
+	font-size:25px;
+	margin-bottom:20px;
+}
+
+.boimela-promotion-section{
+	background:#034236;
+	text-align:center;
+}
+
+.boimela-promotion-section > .container > div {
+	margin:100px;
+}
+
+.boimela-promotion-section > .container > div > p{
+	font-size:20px;
+	color:#fff; 
+}
+
+.suggestion-section > .container >div{
+	margin:100px;
+}
+
+.suggestion-section > .container >div > p{
+	font-size:20px;
+	color:#a1a1a1; 
+	text-align:center;
+}
+
+
+/* write a review*/
+.rules {
+	list-style-image: url('../../right.jpg');
+}
+
+.table-header{
+	font-size:20px;
+	padding:5px;
+	margin: 0 0 0px;
+}
+
+.review-content-textarea{
+	width: 100%;
+	height: 100px !important;
+	border: 1px solid #D4D4D4; 
+	border-radius:3px; 
+	margin-top:20px;
+}
+
+.review-post-button{
+	margin: 20px 0px 10px 0px;
+}
+
+.margin-Up{
+	margin-top: 15px;
+}
+
+
+/* winner page*/
+.winner-card {
+	height:auto;
+	width:100%;
+	margin:2px;
+	padding:2px;
+}
+
+.winner-card > p > img{
+	height:50px; 
+	width:50px;
+}
+.last-week-winner-section{
+	border:1px solid #fff;
+	margin:50px 0px 30px 0px;
+}
+
+.winner-page table{
+	font-size:13px;
+}
+
+
+/* archive page*/
+
+.archive-item { /* Masonry bricks or child elements */
+    background-color: #eee;
+    display: inline-block;
+    margin: 0 0 1em;
+    width: 100%;
+}
+
+.masonry {
+    margin: 1.5em 0;
+    padding: 0;
+    -moz-column-gap: 1.5em;
+    -webkit-column-gap: 1.5em;
+    column-gap: 1.5em;
+}
+
+.archive-item {
+    display: inline-block;
+    background: #fff;
+    padding: .5em;
+    margin: 0 0 1em;
+    width: 100%;
+    box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-shadow: 2px 2px 4px 0 #ccc;
+}
+
+@media only screen and (min-width: 400px) {
+    .masonry {
+        -moz-column-count: 2;
+        -webkit-column-count: 2;
+        column-count: 2;
+    }
+}
+
+@media only screen and (min-width: 700px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 900px) {
+    .masonry {
+        -moz-column-count: 3;
+        -webkit-column-count: 3;
+        column-count: 3;
+    }
+}
+
+@media only screen and (min-width: 1100px) {
+    .masonry {
+        -moz-column-count: 4;
+        -webkit-column-count: 4;
+        column-count: 4;
+    }
+}
+
+.pagination>li>a, .pagination>li>span {
+	color:#ADA8A8;
+}
+
+.pagination>.active>a, .pagination>.active>a:focus, .pagination>.active>a:hover, .pagination>.active>span, .pagination>.active>span:focus, .pagination>.active>span:hover{
+	z-index: 2;
+    color: #fff;
+    cursor: default;
+    background-color: #E82A2A;
+    border-color: #E0340E;
+}
+
+/*search result page*/
+
+.advanced-search-header{
+	margin-top:70px; 
+	font-size:20px; 
+	font-weight:bold;
+	line-height:20px;
+}
+.found-reviews{
+	font-size:13px; 
+	text-align:right; 
+	padding-right:10px;
+	margin:-20px 0px -10px 0px;
+	color:#9C9A9A;
+}
+.storyteller-img {
+	height:23px; 
+	margin-top:-20px;
+}
+.search-item-margin{
+	margin: 10px;
+}
+
+
+
+/*rules*/
+.rules-page{
+	text-align:center;
+	padding-top:40px;
+	padding-bottom:40px;
+}
+.rules-page p {
+	line-height: 23px;
+}
+.rules-instruction-pic{
+	margin:20px 0px 10px 0px;
+	height:150px;
+	width:150px;
+}
+
+.rules-numbering{
+	font-size:23px;
+	color:#E84949;
+	padding-right:7px;
+}
+
+
+/*contact*/
+#contact-page{
+	margin:5px 70px 30px 70px;
+	padding:20px 20px 20px 20px;
+}
+#contact-us-header{
+	padding-top:50px;
+	font-size:30px;
+	text-align:center;
+}
+
+
+/* news&Events*/
+
+	#news-event-header{	
+		padding-top:30px;
+		text-align:center;
+	}
+
+	.animate {
+		-webkit-transition: all 0.3s ease-in-out;
+		-moz-transition: all 0.3s ease-in-out;
+		-o-transition: all 0.3s ease-in-out;
+		-ms-transition: all 0.3s ease-in-out;
+		transition: all 0.3s ease-in-out;
+	}
+	.info-card {
+		width: 100%;
+		border: 1px solid rgb(215, 215, 215);
+		position: relative;
+		margin-bottom: 20px;
+		overflow: hidden;
+	}
+	.info-card > img {
+		width: 100px;
+		margin-bottom: 60px;
+	}
+	.info-card .info-card-details,
+	.info-card .info-card-details .info-card-header  {
+		width: 100%;
+		height: 100%;
+		position: absolute;
+		bottom: -100%;
+		left: 0;
+		padding: 0 15px;
+		background: rgb(255, 255, 255);
+		text-align: center;
+	}
+	.info-card .info-card-details::-webkit-scrollbar {
+		width: 8px;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-button {
+		width: 8px;
+		height: 0px;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-track {
+		background: transparent;
+	}
+	.info-card .info-card-details::-webkit-scrollbar-thumb {
+		background: rgb(160, 160, 160);
+	}
+	.info-card .info-card-details::-webkit-scrollbar-thumb:hover {
+		background: rgb(130, 130, 130);
+	}           
+
+	.info-card .info-card-details .info-card-header {
+		height: auto;		
+		bottom: 100%;
+		padding: 10px 5px;
+	}
+	.info-card:hover .info-card-details {
+		bottom: 0px;
+		overflow: auto;
+		padding-bottom: 25px;
+	}
+	.info-card:hover .info-card-details .info-card-header {
+		position: relative;
+		bottom: 0px;
+		padding-top: 45px;
+		padding-bottom: 25px;
+	}
+	.info-card .info-card-details .info-card-header h1,	
+	.info-card .info-card-details .info-card-header h3 {
+		color: rgb(62, 62, 62);
+		font-size: 22px;
+		font-weight: 900;
+		text-transform: uppercase;
+		margin: 0 !important;
+		padding: 0 !important;
+	}
+	.info-card .info-card-details .info-card-header h3 {
+		color: rgb(142, 182, 52);
+		font-size: 15px;
+		font-weight: 400;
+		margin-top: 5px;
+	}
+	.info-card .info-card-details .info-card-detail .social {
+		list-style: none;
+		padding: 0px;
+		margin-top: 25px;
+		text-align: center;
+	}
+	.info-card .info-card-details .info-card-detail .social a {
+		position: relative;
+		display: inline-block;
+		min-width: 40px;
+		padding: 10px 0px;
+		margin: 0px 5px;
+		overflow: hidden;
+		text-align: center;
+		background-color: rgb(215, 215, 215);
+		border-radius: 40px;
+	}
+
+	
+/*partner */
+.partner-box{
+	padding:20px;
+}
+.partner-box img {
+	width:100%;
+	height:auto
+}
+.partner-box p {
+	margin-top:0px;
+	font-size:16px;
+	font-weight:bold;
+	color:#a1a1a1;
+}
