@@ -49,3 +49,4 @@ end
 
 gem 'devise'
 
+gem 'pg'
