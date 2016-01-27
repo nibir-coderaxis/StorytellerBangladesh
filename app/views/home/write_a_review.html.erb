@@ -45,17 +45,18 @@
         <div class="row">
 
           <div class="col-md-12">
-            <form>
-              Name: <input type="text" class="form-control">
-              email: <input type="text" class="form-control">
-              Contact Number: <input type="text" class="form-control">
-              Name of the books: <input type="text" class="form-control">
 
-              <textarea placeholder="write about your experiences..." class="form-control review-content-textarea"></textarea>
-            </form>
-            <div align="right">
-              <button class="btn btn-success review-post-button"> Post Review</button>
-            </div>
+            <%= form_tag reviews_path do %>
+                Name:<%= text_field_tag :name, '', class: "form-control" %>
+                E-mail:<%= text_field_tag :email, '', class: "form-control" %>
+                Contact Number:<%= text_field_tag :contact_number, '', class: "form-control" %>
+                Name of the books:<%= text_field_tag :book_name, '', class: "form-control" %>
+                <%= text_area_tag :user_experience, '', class: "form-control review-content-textarea", placeholder: "write about your experiences..." %>
+                <div align="right">
+                  <%= submit_tag 'Post Review', class: "btn btn-success review-post-button" %>
+                  <!--<button class="btn btn-success review-post-button"> Post Review</button>-->
+                </div>
+            <% end %>
           </div>
         </div>
       </div>
