@@ -1,0 +1,404 @@
+<%= render(:partial => "home/navbar") %>
+<div>
+  <div class="color bar1"></div>
+  <div class="color bar2"></div>
+  <div class="color bar3"></div>
+  <div class="color bar4"></div>
+  <div class="color bar5"></div>
+  <div style="clear:both"></div>
+</div>
+
+<marquee behavior="scroll" direction="left" id="top-marquee">Welcome to StoryTeller Babgladesh</marquee>
+
+<div class="container">
+
+  <!-- Modal -->
+  <div class="modal fade" id="myModal" role="dialog">
+    <div class="modal-dialog">
+
+      <!-- Modal content-->
+      <div class="modal-content">
+        <div class="modal-header">
+          <button type="button" class="close" data-dismiss="modal">&times;</button>
+          <h4 class="modal-title">Welcome to StoryTeller Babgladesh</h4>
+        </div>
+        <div class="modal-body">
+          <img src="/assets/logo.jpg" style="height:200px;width:auto;"/>
+          <h2>Did you read any book recently?</h2>
+          <p>Please feel free to write a review about it and Win an excellent gift from Storyteller Bangladesh.</p>
+        </div>
+        <div class="modal-footer">
+          <a href="write-a-review">
+            <button type="button" class="btn btn-default button-blink">Write a Review</button>
+          </a>
+        </div>
+      </div>
+
+    </div>
+  </div>
+
+
+</div>
+
+
+<!-- Deadline Modal -->
+<div class="modal fade" id="deadline-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Deadline !!!</h4>
+      </div>
+      <div class="modal-body">
+        <p>The <b>deadline</b> for submitting your review is <span class="deadline-date"> 10/01/2016 </span>.</p>
+
+        <p>
+          Don't miss the opportunity to win amazing gift from us. Hurry Up. Write a review and become a
+          <b>Storyteller Babgladesh</b>.
+        </p>
+      </div>
+      <div class="modal-footer">
+        <a href="write-a-review.html">
+          <button type="button" class="btn btn-default">Write a Review</button>
+        </a>
+        <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<!-- Prize Modal -->
+<div class="modal fade" id="prize-modal" role="dialog">
+  <div class="modal-dialog">
+
+    <!-- Modal content-->
+    <div class="modal-content">
+      <div class="modal-header">
+        <button type="button" class="close" data-dismiss="modal">&times;</button>
+        <h4 class="modal-title">Prize !!!</h4>
+      </div>
+      <div class="modal-body">
+        <p>
+          Storyteller Bangladesh always encourage people to read more books by presenting amazing gifts.
+        </p>
+
+        <div class="prize-modal-details">
+          <h2> What you can get as a winner? </h2>
+          <ul>
+            <li> A winner can select his/her prizes. He/She can order books or anything available at rokomari.com</li>
+            <li> A winner gets a platform to publish his/her book review through Storyteller Bangladesh and
+              rokomari.com’s facebook
+              page having around 1 million followers.
+            </li>
+          </ul>
+        </div>
+      </div>
+      <div class="modal-footer">
+        <a href="write-a-review.html">
+          <button type="button" class="btn btn-success">You can become one of them</button>
+        </a>
+      </div>
+    </div>
+
+  </div>
+</div>
+
+<div class="container">
+
+  <div class="row">
+    <div class="col-md-8">
+      <div class="biography">
+        <p>
+          <img src="/assets/logo-top.jpg"/>, founded in October 2014, is a
+          social media based fortnightly book review competition with an
+          aim to bringing back people’s lost love for books. This voluntary
+          and non-profit initiative is envisioned to illuminate Bangladesh
+          with the light of knowledge yielded from storytelling. In today’s
+          busy world, it often gets hard to pick the right book but thing
+          can get a bit easier if someone is exposed to a fraternity or an
+          archive containing reviews of the new, popular or even ancient
+          books. Since the platform of social media is so robust, efficient
+          and compatible to our daily life, this initiative is totally based on
+          facebook page where one can read book reviews, submit book
+          review and win attractive prizes in form of books, social media
+          exposure and most importantly a platform to share his thoughts.
+          Thus Storyteller Bangladesh is awarding <b>10 Book Reviewers in
+          each fortnight resulting 20 Book Reviewers per month </b> to
+          be recognized , inspired and passionate about book reading.
+        </p>
+        <p>
+          Want to know How Storyteller Bangladesh works? <a href="about-us.html">
+          <button class="btn btn-success">Click Here</button>
+        </a>
+        </p>
+      </div>
+    </div>
+    <div class="col-md-4">
+      <a href="winners.html">
+        <p class="side-link yellow">
+          <img src="/assets/winner.png" class="side-link-photo"/>
+          20 Winners every Month !!!
+        </p>
+      </a>
+
+      <a href="#" data-toggle="modal" data-target="#prize-modal">
+        <p class="side-link red">
+          <img src="/assets/gift.png" class="side-link-photo"/>
+          Prize ???
+        </p>
+      </a>
+
+      <a href="rules.html">
+        <p class="side-link blue">
+          <img src="/assets/rule.png" class="side-link-photo"/>
+          Rules & Guideline
+        </p>
+      </a>
+
+      <a href="FAQ.html">
+        <p class="side-link purple">
+          <img src="/assets/FAQ3.png" class="side-link-photo"/>
+          FAQ
+        </p>
+      </a>
+
+      <a href="write-a-review.html">
+        <p class="side-link green">
+          <img src="/assets/perticipate.png" class="side-link-photo"/>
+          Participate
+        </p>
+      </a>
+
+      <a href="#" data-toggle="modal" data-target="#deadline-modal">
+        <p class="side-link red">
+          <img src="/assets/deadline2.png" class="side-link-photo"/>
+          Deadline???
+        </p>
+      </a>
+
+    </div>
+  </div>
+
+  <hr class="divider"/>
+
+  <p class="header-text"> Recent winners of Storyteller Bangladesh :</p>
+  <div class="row">
+    <div class="col-md-12" data-wow-delay="0.5s">
+      <div class="carousel slide" data-ride="carousel" id="quote-carousel">
+        <!-- Bottom Carousel Indicators -->
+        <ol class="carousel-indicators">
+          <li data-target="#quote-carousel" data-slide-to="0" class="active">
+            <img class="img-responsive " src="/assets/shayla jesmin.jpg" alt="">
+          </li>
+          <li data-target="#quote-carousel" data-slide-to="1">
+            <img class="img-responsive" src="/assets/S. M. Nazmus Sakib.jpg" alt="">
+          </li>
+          <li data-target="#quote-carousel" data-slide-to="2">
+            <img class="img-responsive" src="/assets/Mehedi Hasan.jpg" alt="">
+          </li>
+          <li data-target="#quote-carousel" data-slide-to="3">
+            <img class="img-responsive" src="/assets/Abdullah Al Mahmood Hasan.jpg" alt="">
+          </li>
+        </ol>
+
+        <!-- Carousel Slides / Quotes -->
+        <div class="carousel-inner text-center">
+
+          <!-- Quote 1 -->
+          <div class="item active">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p class="weeks-best-review">
+                    shayla jesmin wins the 1st prize.
+                  </p>
+                  <small>shayla jesmin</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 2 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p class="weeks-best-review">
+                    S. M. Nazmus Sakib wins the 2nd prize.
+                  </p>
+                  <small>S. M. Nazmus Sakib</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <!-- Quote 3 -->
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p class="weeks-best-review">
+                    Mehedi Hasan wins the 3rd prize.
+                  </p>
+                  <small>Mehedi Hasan</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+          <div class="item">
+            <blockquote>
+              <div class="row">
+                <div class="col-sm-8 col-sm-offset-2">
+                  <p class="weeks-best-review">
+                    wins 4th prize.
+                  </p>
+                  <small>Abdullah Al Mahmood Hasan</small>
+                </div>
+              </div>
+            </blockquote>
+          </div>
+        </div>
+
+        <!-- Carousel Buttons Next/Prev -->
+        <a data-slide="prev" href="#quote-carousel" class="left carousel-control"><span class="glyphicon glyphicon-chevron-left" aria-hidden="true"></span></a>
+        <a data-slide="next" href="#quote-carousel" class="right carousel-control"><span class="glyphicon glyphicon-chevron-right" aria-hidden="true"></span></a>
+      </div>
+    </div>
+  </div>
+
+  <hr class="divider"/>
+  <div class="prize-winning-review-section">
+    <p class="prize-winning-review-section-header">
+      Welcome to the World of Storyteller Bangladesh! Here are some of the Prize winning Book Reviews
+    </p>
+    <div style="text-align:center;">
+      <div class="col-md-4">
+        <div class="celebrity-review">
+          <span class="celebrity-reviewer-name"> Bidya Sinha Saha Mim </span> reviewed
+          <span class="celebrity-review-book"> Dwitiyo Manob </span> of
+          <span class="celebrity-review-books-author"> Humayun Ahmed</span>
+
+          <p class="celebrity-review-text">
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="celebrity-review">
+          <span class="celebrity-reviewer-name"> Bidya Sinha Saha Mim </span> reviewed
+          <span class="celebrity-review-book"> Dwitiyo Manob </span> of
+          <span class="celebrity-review-books-author"> Humayun Ahmed</span>
+          <p class="celebrity-review-text">
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+          </p>
+        </div>
+      </div>
+      <div class="col-md-4">
+        <div class="celebrity-review">
+          <span class="celebrity-reviewer-name"> Bidya Sinha Saha Mim </span> reviewed
+          <span class="celebrity-review-book"> Dwitiyo Manob </span> of
+          <span class="celebrity-review-books-author"> Humayun Ahmed</span>
+
+          <p class="celebrity-review-text">
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+          </p>
+        </div>
+      </div>
+
+      <div class="col-md-4">
+        <div class="celebrity-review">
+          <span class="celebrity-reviewer-name"> Bidya Sinha Saha Mim </span> reviewed
+          <span class="celebrity-review-book"> Dwitiyo Manob </span> of
+          <span class="celebrity-review-books-author"> Humayun Ahmed</span>
+          <p class="celebrity-review-text">
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+          </p>
+        </div>
+      </div>
+
+
+      <div class="col-md-4">
+        <div class="celebrity-review">
+          <span class="celebrity-reviewer-name"> Bidya Sinha Saha Mim </span> reviewed
+          <span class="celebrity-review-book"> Dwitiyo Manob </span> of
+          <span class="celebrity-review-books-author"> Humayun Ahmed</span>
+
+          <p class="celebrity-review-text">
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books. I
+            read almost
+            every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+          </p>
+        </div>
+      </div>
+
+      <div style="clear:both;"></div>
+    </div>
+  </div>
+
+
+  <hr class="divider"/>
+  <div class="video-tutorial-section">
+    <p>How to write a Book Review? A video tutorial just for you :</p>
+    <iframe width="630" height="473" src="https://www.youtube.com/embed/9f06QZCVUHg" frameborder="0" allowfullscreen></iframe>
+  </div>
+  <hr class="divider"/>
+
+</div>
+<div class="boimela-promotion-section">
+  <div class="container">
+    <div>
+      <p>
+        Do you have amazing short stories? If you want to get your story published in next Ekushey Book Fair
+        2017 from famous
+        <a href="http://www.adarshabd.com/" _target="blank">Adorsho Publishers</a>
+        <a href="write-a-review.html"></a> then
+        <a>participate</a> of Storyteller
+        Bangladesh National Short Story Writing Competition :
+      </p>
+      <button type="button" class="btn btn-success ">Take your chance</button>
+    </div>
+  </div>
+</div>
+
+<div class="suggestion-section">
+  <div class="container">
+    <div>
+      <p>
+        If you have any innovative idea, suggestion, partnership or collaboration idea then you can be a part
+        of <b>storyteller Bangladesh</b>. Contact us at <b>storytellerbangladesh@gmail.com</b>
+      </p>
+    </div>
+    <hr class="divider"/>
+  </div>
+</div>
+<%= render(:partial => "home/homeFooter") %>
+</body>
+</html>

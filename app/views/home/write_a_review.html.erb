@@ -1,0 +1,97 @@
+<%= render(:partial => "home/navbar") %>
+<div>
+  <div class="color bar1"></div>
+  <div class="color bar2"></div>
+  <div class="color bar3"></div>
+  <div class="color bar4"></div>
+  <div class="color bar5"></div>
+  <div style="clear:both"></div>
+</div>
+<div class="container">
+</div>
+<hr class="divider"/>
+<div class="container">
+  <div class="row">
+    <div class="col-md-4">
+      <br/>
+      <table class="table table-hover" style="font-size: 13px;">
+        <tr>
+          <td class="active"><p class="table-header yellow"> Be the Winners</p></td>
+          <td>
+            <p>I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books.
+              I read almost I was always fascinated about the books of Humayun Ahmed.
+            </p>
+          </td>
+        </tr>
+        <tr>
+          <td class="active"><p class="table-header blue"> Rules</p></td>
+          <td>
+            <ul class="rules">
+              <li>Read any book available.</li>
+              <li>Write about it in 300-1000 words following the conventional book review format</li>
+              <li>Book review can be written in English or Bangla.</li>
+              <li>Winners are required to send picture upon receiving the gifts which will be later shared in the page
+                along with book reviews.
+              </li>
+            </ul>
+          </td>
+        </tr>
+      </table>
+      <hr class="divider"/>
+    </div>
+    <div class="col-md-7 book-details">
+      <p class="write-review-header"> Write a review :</p>
+      <div class="write-review-box">
+        <div class="row">
+
+          <div class="col-md-12">
+            <form>
+              Name: <input type="text" class="form-control">
+              email: <input type="text" class="form-control">
+              Contact Number: <input type="text" class="form-control">
+              Name of the books: <input type="text" class="form-control">
+
+              <textarea placeholder="write about your experiences..." class="form-control review-content-textarea"></textarea>
+            </form>
+            <div align="right">
+              <button class="btn btn-success review-post-button"> Post Review</button>
+            </div>
+          </div>
+        </div>
+      </div>
+
+      <hr class="divider"/>
+
+      <h2>Don't know what to write? Here is a Sample Review for you.</h2>
+
+      <div class="review-item">
+        <div class="row">
+          <div class="col-md-2 margin-Up" align="center">
+            <img src="/assets/avatar.png" class="reviewer-pic"/>
+          </div>
+          <div class="col-md-10">
+            Name:<span class="reviewer-name"> Salman Khan </span> <br/>
+            email:<span class="reviewer-name"> your.email@example.com</span> <br/>
+            Contact Number:<span class="reviewer-name"> +8801XXXXXXXX</span> <br/>
+            Book's Name:<span class="reviewer-name"> Whatever you have read Recently</span> <br/>
+
+            <p class="review-text">
+              I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books.
+              I read almost
+              I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books.
+              I read almost
+              every books writen by him. But among them Dwitiyo Manob is my most favourite one. I really likes the ways
+              he wrote all his books. I read almost
+              I was always fascinated about the books of Humayun Ahmed. I really likes the ways he wrote all his books.
+              I read almost
+              every books writen by him. But among them Dwitiyo Manob is my most favourite one.
+            </p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </div>
+</div>
+
+<hr class="divider"/>
+<%= render(:partial => "home/footer") %>
